@@ -297,7 +297,7 @@ class OverlayController(private val context: Context) {
                 setTextColor(Color.parseColor("#F8FAFC"))
                 textSize = 15f
                 typeface = Typeface.create(Typeface.SERIF, Typeface.ITALIC)
-                lineSpacingMultiplier = 1.25f
+                setLineSpacing(0f, 1.25f)
                 background = createRoundedCardDrawable(
                     backgroundColor = Color.parseColor("#0F172A"),
                     cornerRadiusDp = 8f

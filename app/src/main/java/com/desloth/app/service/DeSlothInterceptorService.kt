@@ -53,7 +53,6 @@ class DeSlothInterceptorService : AccessibilityService() {
             feedbackType = AccessibilityServiceInfo.FEEDBACK_GENERIC
             flags = AccessibilityServiceInfo.DEFAULT
             notificationTimeout = 100
-            canRetrieveWindowContent = false
         }
         serviceInfo = info
     }
